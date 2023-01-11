@@ -1,0 +1,13 @@
+<center>
+<h1>Register</h1>
+
+<form action="addrecord/" method="post">
+{% csrf_token %}
+Company Name:<br>
+<input name="first">
+<br><br>
+Reference Name:<br>
+<input name="last">
+<br><br>
+<input type="submit" value="Submit">
+</form>
